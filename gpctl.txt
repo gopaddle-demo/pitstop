@@ -1,0 +1,35 @@
+user@user-Inspiron-3542:~$ gpctl import --url=https://github.com/gopaddle-demo/pitstop.git --provider=github --path=src/k8s --originName=master --originType=branch --scmID=cba9eedaa4be9f7be4f4ce8cbfec6a2475d4266
+Fetching Project Info
+Select Type for 'logserver' Container(1. CodeBased 2. Docker project 3. Docker Image):3
+       RegistryName          ProviderType          Provider
+       ------------          ------------          --------
+1      ashvin                saas                  docker              
+2      google-reg            saas                  GCR                 
+Enter Docker Registry No: 1
+Select Type for 'notificationservice' Container(1. CodeBased 2. Docker project 3. Docker Image):2
+Select Type for 'rabbitmq' Container(1. CodeBased 2. Docker project 3. Docker Image):3
+       RegistryName          ProviderType          Provider
+       ------------          ------------          --------
+1      ashvin                saas                  docker              
+2      google-reg            saas                  GCR                 
+Enter Docker Registry No: 1
+Select Type for 'sqlserver' Container(1. CodeBased 2. Docker project 3. Docker Image):3
+       RegistryName          ProviderType          Provider
+       ------------          ------------          --------
+1      ashvin                saas                  docker              
+2      google-reg            saas                  GCR                 
+Enter Docker Registry No: 1
+Select Type for 'workshopmanagementapi' Container(1. CodeBased 2. Docker project 3. Docker Image):2
+Select Type for 'customermanagementapi' Container(1. CodeBased 2. Docker project 3. Docker Image):2
+Select Type for 'invoiceservice' Container(1. CodeBased 2. Docker project 3. Docker Image):2
+Select Type for 'mailserver' Container(1. CodeBased 2. Docker project 3. Docker Image):3
+       RegistryName          ProviderType          Provider
+       ------------          ------------          --------
+1      ashvin                saas                  docker              
+2      google-reg            saas                  GCR                 
+Enter Docker Registry No: 1
+Select Type for 'timeservice' Container(1. CodeBased 2. Docker project 3. Docker Image):2
+Select Type for 'vehiclemanagementapi' Container(1. CodeBased 2. Docker project 3. Docker Image):2
+Select Type for 'webapp' Container(1. CodeBased 2. Docker project 3. Docker Image):2
+Select Type for 'workshopmanagementeventhandler' Container(1. CodeBased 2. Docker project 3. Docker Image):2
+Select Type for 'auditlogservice' Container(1. CodeBased 2. Docker project 3. Docker Image):2
